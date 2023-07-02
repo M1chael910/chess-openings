@@ -1,6 +1,8 @@
 h1 {
+  margin: 0;
   font-size: 30px;
   text-align: center;
+  padding: 20px 0;
 }
 
 p {
@@ -17,6 +19,11 @@ html {
   background-color: #9de593;
   font-size: 10px;
   font-family: Roboto;
+}
+
+img { 
+display: block;
+margin: 0 auto;
 }
 
 body {

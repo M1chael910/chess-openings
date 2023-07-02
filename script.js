@@ -1,1 +1,2 @@
-console.log("hello world");
+const openingHeading = document.querySelector("h1");
+openingHeading.textContent = "Italian Opening";
