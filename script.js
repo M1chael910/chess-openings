@@ -1,2 +1,2 @@
-const openingHeading = document.querySelector("h1");
-openingHeading.textContent = "Italian Opening";
+TODO
+// Add code for changing images and descriptions based on a click action
