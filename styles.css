@@ -7,9 +7,8 @@ h1 {
 }
 
 .container {
-  height: 200px;
+  height: 50px;
   position: relative;
-  border: 9px solid green;
 }
 
 .center {
@@ -47,7 +46,7 @@ li {
 html {
   background-color: #9de593;
   font-size: 10px;
-  font-family: Roboto;
+  font-family: Roboto, serif;
 }
 
 img {

@@ -1,7 +1,9 @@
-// This changes the images back and fourth when the user clicks the images
+// This changes the images back and forth when the user clicks the images
 
 const myImage = document.querySelector("img#heading-logo");
 const myButton = document.querySelector("button");
+
+myButton.onclick = () => {};
 
 myImage.onclick = () => {
   // This is an anonymous function
