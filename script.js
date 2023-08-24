@@ -1,9 +1,18 @@
 // This changes the images back and forth when the user clicks the images
 
 const myImage = document.querySelector("img#heading-logo");
-const myButton = document.querySelector("button");
 
-myButton.onclick = () => {};
+
+TODO
+// Setup buttons to cycle through images
+
+
+// const next_move_btn = document.querySelector("next_move_btn");
+// const prev_move_btn = document.querySelector("prev_move_btn");
+// var imageArray = [];
+// next_move_btn.onclick = () => {
+
+// };
 
 myImage.onclick = () => {
   // This is an anonymous function
