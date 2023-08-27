@@ -3,8 +3,8 @@
 const myImage = document.querySelector("img#heading-logo");
 
 
-TODO
-// Setup buttons to cycle through images
+//TODO
+//Setup buttons to cycle through images
 
 
 // const next_move_btn = document.querySelector("next_move_btn");
