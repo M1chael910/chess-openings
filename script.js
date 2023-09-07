@@ -6,7 +6,6 @@ const myImage = document.querySelector("img#heading-logo");
 //TODO
 //Setup buttons to cycle through images
 
-
 // const next_move_btn = document.querySelector("next_move_btn");
 // const prev_move_btn = document.querySelector("prev_move_btn");
 // var imageArray = [];
