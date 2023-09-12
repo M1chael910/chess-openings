@@ -2,16 +2,24 @@
 
 const myImage = document.querySelector("img#heading-logo");
 
-
 //TODO
-//Setup buttons to cycle through images
 
-// const next_move_btn = document.querySelector("next_move_btn");
-// const prev_move_btn = document.querySelector("prev_move_btn");
-// var imageArray = [];
-// next_move_btn.onclick = () => {
+const next_move_btn = document.querySelector("next_move_btn");
+const prev_move_btn = document.querySelector("prev_move_btn");
+var imageArray = [];
+next_move_btn.onclick = () => {
+const mySrc = myImage.getAttribute("src");
+if (mySrc === "images/QG Basic Opening/QG-1.png") { 
+    myImage.setAttribute("src", "images/QG Basic Opening/QG-2.png");
+} else if(mySrc === "images/QG Basic Opening/QG-1.png") { 
+    
+}
 
-// };
+};
+
+prev_move_btn.onclick = () => {
+
+};
 
 myImage.onclick = () => {
   // This is an anonymous function
@@ -22,5 +30,6 @@ myImage.onclick = () => {
     myImage.setAttribute("src", "images/chess-logo.jpeg");
     myImage.setAttribute("height", "300");
     myImage.setAttribute("width", "300");
+    myImage
   }
 };
