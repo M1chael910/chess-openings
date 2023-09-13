@@ -11,10 +11,9 @@ next_move_btn.onclick = () => {
 const mySrc = myImage.getAttribute("src");
 if (mySrc === "images/QG Basic Opening/QG-1.png") { 
     myImage.setAttribute("src", "images/QG Basic Opening/QG-2.png");
-} else if(mySrc === "images/QG Basic Opening/QG-1.png") { 
-    
+} else if(mySrc === "images/QG Basic Opening/QG-2.png") { 
+  myImage.setAttribute("src", "images/QG Basic Opening/QG-3.png");
 }
-
 };
 
 prev_move_btn.onclick = () => {
@@ -30,6 +29,5 @@ myImage.onclick = () => {
     myImage.setAttribute("src", "images/chess-logo.jpeg");
     myImage.setAttribute("height", "300");
     myImage.setAttribute("width", "300");
-    myImage
   }
 };
