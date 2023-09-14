@@ -3,11 +3,11 @@
 const myImage = document.querySelector("img#heading-logo");
 
 
-TODO
+//TODO
 //Fix this shit
 
 const next_move_btn = document.querySelector("#next_move_btn");
-const prev_move_btn = document.querySelector("#prev_move_btn");
+
 var imageArray = [];
 next_move_btn.onclick = () => {
 if (mySrc === "images/QG Basic Opening/QG-1.png") { 
